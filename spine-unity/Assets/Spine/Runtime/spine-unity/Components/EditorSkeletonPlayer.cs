@@ -146,4 +146,8 @@ namespace Spine.Unity {
 		}
 	}
 }
+#else
+namespace Spine.Unity {
+	public class EditorSkeletonPlayer : UnityEngine.MonoBehaviour {}
+}
 #endif
